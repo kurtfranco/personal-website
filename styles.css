@@ -64,6 +64,10 @@ a {
     text-decoration: none;
 }
 
+i {
+    color: #cbd6d2;
+}
+
 .container {
     width: 50%;
     float: left;
@@ -78,6 +82,12 @@ a {
 .right-container {
     margin-top: 50px;
     margin-left: 100px;
+    background-color: #2f4841;
+}
+
+.right-container2 {
+    margin-top: 500px;
+    margin-right: 0px;
     background-color: #2f4841;
 }
 
@@ -122,24 +132,58 @@ a {
     font-size: 50px;
 }
 
+.center {
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+
+.social-container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    color: #cbd6d2;
+}
+
+.card {
+    border-radius: 10px 0px 0px 10px;
+    width: 50%;
+    align-self: center;
+    padding: 50px;
+    padding-top: 20px;
+}
+
+.side-border-left {
+    border-left: 5px solid #ea5b2a;
+}
+
+.side-border-right {
+    border-right: 5px solid #ea5b2a;
+}
 
 
+.padding-left {
+    padding-left: 20px;
+}
+
+.padding-right {
+    padding-right: 20px;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
 
 .main-bg {
     background-color: #2f4841;
-}
-
-.second-bg {
-    background-color: #407e63;
-}
-
-.third-bg {
-    background-color: #cbd6d2;
 }
 
 .font-color {
     background-color: #ea5b2a;
 }
 
-
-/* #ADBC9F */
